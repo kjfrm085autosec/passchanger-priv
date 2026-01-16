@@ -22,7 +22,7 @@ DEFAULT_OWNERS = [1317504267237593099, 1383641747913183256]
 
 # Embed styling
 EMBED_COLOR = 0x00FFFF  # cyan
-FOOTER_TEXT = "Flow Cloud Pass Changer | By SeriesV2"
+FOOTER_TEXT = "Spear Cloud Pass Changer | By SeriesV2"
 
 # Global processing lock to ensure only one account is processed at a time
 processing_lock: asyncio.Lock = asyncio.Lock()
@@ -149,7 +149,7 @@ bot = commands.Bot(command_prefix=commands.when_mentioned_or(".", "!", "$", "+")
 async def on_ready():
     cfg = load_config()
     try:
-        await bot.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game("Flow Cloud Pass Changer"))
+        await bot.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game("Spear Cloud Pass Changer"))
     except Exception as e:
         logger.exception("Failed to set presence")
 
