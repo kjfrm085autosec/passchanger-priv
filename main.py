@@ -18,11 +18,11 @@ load_dotenv()
 
 # ============= CONFIGURATION SECTION =============
 DISCORD_BOT_TOKEN = ""  # Put your bot token here
-BOT_NAME = "EMERALD HOSTS"
+BOT_NAME = "Feather Nodes | Cheap & Free"
 BOT_VERSION = "V1"
-THUMBNAIL_IMAGE_URL = "https://i.postimg.cc/XYYnZGG5/trashed-1765164388-image-3.jpg"
-FOOTER_ICON_URL = "https://i.postimg.cc/XYYnZGG5/trashed-1765164388-image-3.jpg"
-MESSAGES_GIF_URL = "https://i.postimg.cc/htW4t2B7/200w-(1).webp"
+THUMBNAIL_IMAGE_URL = "https://cdn.discordapp.com/attachments/1461925871756509440/1461926003365515306/images.jpg?ex=696c5430&is=696b02b0&hm=fa29df47af89a4ffbba3cf65b4fc7d1fe38d945ad95898f5ce64f063d0cfa5f2"
+FOOTER_ICON_URL = "https://cdn.discordapp.com/attachments/1461925871756509440/1461926003365515306/images.jpg?ex=696c5430&is=696b02b0&hm=fa29df47af89a4ffbba3cf65b4fc7d1fe38d945ad95898f5ce64f063d0cfa5f2"
+MESSAGES_GIF_URL = "https://cdn.discordapp.com/attachments/1461925871756509440/1461926003365515306/images.jpg?ex=696c5430&is=696b02b0&hm=fa29df47af89a4ffbba3cf65b4fc7d1fe38d945ad95898f5ce64f063d0cfa5f2"
 
 # LXC Storage Pool
 DEFAULT_STORAGE_POOL = "default"
@@ -39,8 +39,8 @@ PAYMENT_ADDRESS = "0x1234567890abcdef1234567890abcdef12345678"
 PAYMENT_METHODS = {
     "Bitcoin": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
     "Ethereum": "0x1234567890abcdef1234567890abcdef12345678",
-    "PayPal": "paypal.me/emeraldhosts",
-    "CashApp": "$emeraldhosts"
+    "PayPal": "starcoderealcrazy123@gmail.com",
+    "CashApp": "$kjfrm085"
 }
 
 # Game Settings
@@ -69,8 +69,8 @@ intents.members = True
 bot = commands.Bot(command_prefix='.', intents=intents, help_command=None)
 
 # Main admin user ID
-MAIN_ADMIN_ID = 1061287786755395585
-VPS_USER_ROLE_ID = None
+MAIN_ADMIN_ID = 1383641747913183256
+VPS_USER_ROLE_ID = 1461926454551122177
 CPU_THRESHOLD = 90
 CHECK_INTERVAL = 60
 cpu_monitor_active = True
@@ -82,10 +82,18 @@ MESSAGE_THRESHOLD = 50
 
 # Plans & Pricing
 PLANS = {
-    "Starter": {"ram": "4GB", "cpu": "1", "storage": 20, "price_intel": 42, "price_amd": 83},
-    "Basic": {"ram": "8GB", "cpu": "1", "storage": 30, "price_intel": 96, "price_amd": 164},
-    "Standard": {"ram": "12GB", "cpu": "2", "storage": 50, "price_intel": 192, "price_amd": 320},
-    "Pro": {"ram": "16GB", "cpu": "2", "storage": 80, "price_intel": 220, "price_amd": 340}
+    "Starter": {"ram": "4GB", "cpu": "1", "storage": 20, "price_intel": 6, "price_amd": 8},
+    "Basic": {"ram": "8GB", "cpu": "1", "storage": 30, "price_intel": 9, "price_amd": 12},
+    "Standard": {"ram": "12GB", "cpu": "2", "storage": 50, "price_intel": 13, "price_amd": 16},
+    "Pro": {"ram": "16GB", "cpu": "2", "storage": 80, "price_intel": 17, "price_amd": 20},
+    "Advanced": {"ram": "20GB", "cpu": "3", "storage": 100, "price_intel": 21, "price_amd": 25},
+    "Master": {"ram": "24GB", "cpu": "3", "storage": 120, "price_intel": 24, "price_amd": 28},
+    "Titan": {"ram": "28GB", "cpu": "4", "storage": 150, "price_intel": 28, "price_amd": 32},
+    "Performance": {"ram": "32GB", "cpu": "4", "storage": 180, "price_intel": 32, "price_amd": 36},
+    "Performance Plus": {"ram": "40GB", "cpu": "5", "storage": 220, "price_intel": 36, "price_amd": 40},
+    "Elite": {"ram": "48GB", "cpu": "5", "storage": 260, "price_intel": 40, "price_amd": 44},
+    "Elite Plus": {"ram": "56GB", "cpu": "6", "storage": 300, "price_intel": 44, "price_amd": 48},
+    "Ultimate": {"ram": "64GB", "cpu": "6", "storage": 350, "price_intel": 48, "price_amd": 50}
 }
 
 # JSON helpers
